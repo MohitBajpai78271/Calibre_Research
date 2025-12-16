@@ -6,14 +6,14 @@ This repository contains code for extracting, organizing, and splitting the CBIS
 
 ## 📁 Project Structure
 
-CBIS-DDSM-Project/
-├── data/
-│ ├── raw/
-│ └── processed/
-├── notebooks/
-├── scripts/
-├── README.md
-└── requirements.txt
+#CBIS-DDSM-Project/
+    ├── data/
+    │ ├── raw/
+    │ └── processed/
+    ├── notebooks/
+    ├── scripts/
+    ├── README.md
+    └── requirements.txt
 
 
 ---
