@@ -23,19 +23,24 @@ CBIS-DDSM-Project/
 ▶️ How to Run This Project
 
 1️⃣ Clone the Repository
+
 git clone https://github.com/MohitBajpai78271/Calibre_Research.git
+
 cd Calibre_Research
 
 2️⃣ Create Python Environment (Required)
  -> Python 3.10 is required. Python 3.12 may not be supported.
- 
+ ```bash
 conda create -n visionmamba python=3.10 -y
 conda activate visionmamba
+```
 
 3️⃣ Install Dependencies
 
+```bash
 pip install --upgrade pip
 pip install -r requirements.txt
+```
 
 4️⃣ Download Dataset (CBIS-DDSM)
 
@@ -48,13 +53,19 @@ Due to size limitations (>1GB), the dataset is not included in this repository.
      data/raw/CBIS-DDSM.zip
 
 5️⃣ Extract Dataset
+```bash
 python scripts/extract_dataset.py
+```
 This will create:
 data/raw/cbis_ddsm/
 
 6️⃣ Split Dataset (Train / Val / Test)
+
+```bash
 python scripts/split_dataset.py
+```
 Output will be created in:
+
 data/processed/
 ├── train/
 ├── val/
