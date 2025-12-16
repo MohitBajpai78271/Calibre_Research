@@ -62,5 +62,3 @@ Make sure the kernel is set to:
 Python (visionmamba)
 
 
-```bash
-pip install -r requirements.txt
