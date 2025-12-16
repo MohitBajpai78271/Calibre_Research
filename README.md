@@ -6,16 +6,6 @@ This repository contains code for extracting, organizing, and splitting the CBIS
 
 ## 📁 Project Structure
 
-#CBIS-DDSM-Project/
-    ├── data/
-    │ ├── raw/
-    │ └── processed/
-    ├── notebooks/
-    ├── scripts/
-    ├── README.md
-    └── requirements.txt
-
-
 ---
 
 ## ⚙️ Setup Environment
@@ -64,12 +54,6 @@ data/raw/cbis_ddsm/
 ```bash
 python scripts/split_dataset.py
 ```
-Output will be created in:
-
-data/processed/
-├── train/
-├── val/
-└── test/
 
 7️⃣ Run Experiments (Notebook)
 jupyter notebook
