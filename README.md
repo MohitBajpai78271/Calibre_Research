@@ -57,7 +57,7 @@ python scripts/split_dataset.py
 
 7️⃣ Run Experiments (Notebook)
 jupyter notebook
-Open:notebooks/training.ipynb
+Open:notebooks/Calibre_BCD_AM.ipynb
 Make sure the kernel is set to:
 Python (visionmamba)
 
